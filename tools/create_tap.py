@@ -6,7 +6,6 @@ def read_symbols(filename):
     output = {}
     with open(filename, 'r') as f:
         r = re.compile('(?P<name>[\w._!?#@]+): EQU 0x(?P<address>[0-9A-Fa-f]+)')
-        #r = re.compile('(?P<name>[\w._!?#@]+): EQU 0x.*')
         for line in f.readlines():
             m = r.match(line)
             output[m.group('name')] = int(m.group('address'), 16)
