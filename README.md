@@ -10,6 +10,7 @@ The writeups + sources are also available at [github](https://github.com/neonz80
 - [A Visual Journey from CP to LD (ZX Spectrum, 16 bytes)](a_visual_journey_from_cp_to_ld/)
 - [A Prison for Your Mind (ZX Spectrum, 32 bytes)](a_prison_for_your_mind/)
 - [Lovebyte Partyscroller (ZX Spectrum, 64 bytes)](lovebyte_partyscroller/)
+- [Aurora Borealis (ZX Spectrum, 128 bytes)](aurora_borealis/)
 
 ## Notes
 
