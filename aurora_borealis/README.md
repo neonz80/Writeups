@@ -477,3 +477,9 @@ zero. Line 0 is therefore not drawn.
 Finally the frame counter is incremented and the main loop is
 restarted.
 
+## Final words
+
+It would be interesting to see how this effect would look when
+optimized for speed. The tearing is annoying but is very hard to avoid
+in 128 bytes, especially when drawing from the bottom to the top.
+
